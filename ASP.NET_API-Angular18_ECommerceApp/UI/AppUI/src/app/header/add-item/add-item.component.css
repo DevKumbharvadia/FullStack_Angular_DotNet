@@ -1,0 +1,15 @@
+input::placeholder,
+textarea::placeholder {
+  color: rgb(235, 235, 235); /* Change this to your preferred color */
+  opacity: 1; /* Ensures full color opacity */
+}
+.hover-border {
+  border-color: #8e7497;
+}
+
+.hover-border:hover {
+  border-color: #312651;
+}
+.focus-border {
+  border-color: #312651
+}

@@ -1,0 +1,51 @@
+<div class="min-h-screen flex flex-col items-center bg-[#F3F4F6] py-8">
+    <div class="max-w-md w-full bg-white p-6 rounded-lg shadow-lg">
+        <!-- Header -->
+        <div class="flex items-center justify-between border-b-2 border-[#393E46] pb-4">
+            <h2 class="text-2xl font-semibold text-[#393E46]">Rewrite User Roles</h2>
+        </div>
+
+        <!-- User Info -->
+        <div class="pt-6">
+            <p class="text-[#222831] font-medium text-lg">User: {{ user.username }}</p>
+        </div>
+
+        <!-- Roles Management -->
+        <div class="pt-6">
+            <div class="space-y-4">
+            @for (role of roles; track $index) 
+            {
+                <!-- Role 1 -->
+                <div class="flex items-center">
+                    <input
+                        id="role-admin"
+                        type="checkbox"
+                        class="w-4 h-4 text-[#00ADB5] bg-[#EEEEEE] border-[#393E46] rounded focus:ring-[#00ADB5]"
+                        (change)="onRoleChange($event, role.roleId)"
+                    />
+                    <label for="role-admin" class="ml-2 text-sm text-[#222831]">
+                        {{ role.roleName }}
+                    </label>
+                </div>
+            }
+        
+
+        <!-- Footer -->
+        <div class="flex items-center justify-between mt-6 pt-4 border-t-2 border-[#393E46]">
+            <button
+                class="px-6 py-2 bg-gray-300 text-gray-700 rounded-md hover:bg-gray-400"
+                type="button"
+                (click)="cancelChanges()"
+            >
+                Cancel
+            </button>
+            <button
+                class="px-6 py-2 bg-[#00ADB5] text-white font-medium rounded-md hover:bg-[#007B84] focus:outline-none focus:ring-2 focus:ring-[#00ADB5]"
+                type="button"
+                (click)="saveChanges()"
+            >
+                Save Changes
+            </button>
+        </div>
+    </div>
+</div>

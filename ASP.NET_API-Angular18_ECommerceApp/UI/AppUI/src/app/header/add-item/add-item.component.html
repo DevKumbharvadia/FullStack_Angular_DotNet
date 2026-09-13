@@ -1,0 +1,58 @@
+<div class="h-screen flex items-center justify-center" style="color: white">
+    <div
+      class="shadow-md p-4"
+      style="
+        padding-left: 40px;
+        padding-right: 40px;
+        padding-bottom: 30px;
+        backdrop-filter: blur(2px);
+        filter: saturate(1.25);
+      "
+    >
+      <div class="grid auto-rows-auto">
+        <div
+          class="text-center"
+          style="font-size: large; font-weight: 500; padding-bottom: 20px"
+        >
+          <span> Add Item </span>
+        </div>
+
+        <div class="flex justify-center">
+          <input type="file" id="fileInput" class="hidden cursor-pointer">
+  
+          <label for="fileInput" class=" rounded-md cursor-pointer hover:cursor-pointer p-1 m-4 bg-transparent hover-border border-b-2 focus:outline-none my-4 shadow-md hover:shadow-md hover:shadow-orange-200">
+            Upload Image
+          </label>
+        </div>
+        <input
+          type="text"
+          class="hover-border border-b-2 w-[300px] focus:outline-none hover:cursor-text my-4 shadow-md hover:shadow-orange-200"
+          style="background: transparent"
+          placeholder="Item Name"
+        />
+        <input
+          type="number"
+          class="hover-border border-b-2 w-[300px] focus:outline-none hover:cursor-text my-4 shadow-md hover:shadow-orange-200"
+          style="background: transparent "
+          placeholder="Price"
+        />
+        <textarea
+          class="hover-border border-b-2 w-[300px] focus:outline-none hover:cursor-text my-4 shadow-md hover:shadow-orange-200"
+          name="Textarea"
+          style="background: transparent"
+          placeholder="Discription"
+        ></textarea>
+        <div
+          class="flex items-center justify-center"
+          style="padding-bottom: 1.5rem"
+        >
+          <input
+            type="submit"
+            name="submit"
+            class="shadow-md w-min items-center rounded-md px-2 py-1 mt-3 appearance-none hover:shadow-orange-200"
+            style="cursor: pointer"
+          />
+        </div>
+      </div>
+    </div>
+  </div>

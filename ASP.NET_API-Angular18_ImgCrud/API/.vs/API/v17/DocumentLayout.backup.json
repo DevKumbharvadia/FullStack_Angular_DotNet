@@ -1,0 +1,128 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Desktop\\Del\\del\\ImgCrud\\API\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4909FE77-F412-4586-BDD8-5A77E60C8846}|API\\API.csproj|c:\\users\\asus\\desktop\\del\\del\\imgcrud\\api\\api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4909FE77-F412-4586-BDD8-5A77E60C8846}|API\\API.csproj|solutionrelative:api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4909FE77-F412-4586-BDD8-5A77E60C8846}|API\\API.csproj|c:\\users\\asus\\desktop\\del\\del\\imgcrud\\api\\api\\repository\\abastract\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4909FE77-F412-4586-BDD8-5A77E60C8846}|API\\API.csproj|solutionrelative:api\\repository\\abastract\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__test/ProdImgDb/True/SqlTable/dbo.Products.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__test/ImageCRUDTestDb/True/SqlTable/dbo.Product.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4909FE77-F412-4586-BDD8-5A77E60C8846}|API\\API.csproj|c:\\users\\asus\\desktop\\del\\del\\imgcrud\\api\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4909FE77-F412-4586-BDD8-5A77E60C8846}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4909FE77-F412-4586-BDD8-5A77E60C8846}|API\\API.csproj|c:\\users\\asus\\desktop\\del\\del\\imgcrud\\api\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4909FE77-F412-4586-BDD8-5A77E60C8846}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4909FE77-F412-4586-BDD8-5A77E60C8846}|API\\API.csproj|c:\\users\\asus\\desktop\\del\\del\\imgcrud\\api\\api\\migrations\\20241113174207_fm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4909FE77-F412-4586-BDD8-5A77E60C8846}|API\\API.csproj|solutionrelative:api\\migrations\\20241113174207_fm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Del\\del\\ImgCrud\\API\\API\\Repository\\Abastract\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "API\\Repository\\Abastract\\IProductRepository.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Del\\del\\ImgCrud\\API\\API\\Repository\\Abastract\\IProductRepository.cs",
+              "RelativeToolTip": "API\\Repository\\Abastract\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T18:01:30.401Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.Product [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__test/ImageCRUDTestDb/True/SqlTable/dbo.Product.sql",
+              "ToolTip": "dbo.Product [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-13T18:00:29.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.Products [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__test/ProdImgDb/True/SqlTable/dbo.Products.sql",
+              "ToolTip": "dbo.Products [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2024-11-13T18:00:02.389Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Del\\del\\ImgCrud\\API\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Del\\del\\ImgCrud\\API\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABoAAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-13T17:46:53.731Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Del\\del\\ImgCrud\\API\\API\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "API\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Del\\del\\ImgCrud\\API\\API\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "API\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:43:03.767Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20241113174207_fm.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Del\\del\\ImgCrud\\API\\API\\Migrations\\20241113174207_fm.cs",
+              "RelativeDocumentMoniker": "API\\Migrations\\20241113174207_fm.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Del\\del\\ImgCrud\\API\\API\\Migrations\\20241113174207_fm.cs",
+              "RelativeToolTip": "API\\Migrations\\20241113174207_fm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:42:08.22Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Desktop\\Del\\del\\ImgCrud\\API\\API\\Program.cs",
+              "RelativeDocumentMoniker": "API\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Desktop\\Del\\del\\ImgCrud\\API\\API\\Program.cs",
+              "RelativeToolTip": "API\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-13T17:41:41.309Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

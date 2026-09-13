@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Asus\\Downloads\\Upload files in angular and core api\\Upload files in angular and core api\\ProductMiniApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF9B342-0EE3-4124-AFE8-DE290DAD290F}|ProductMiniApi\\ProductMiniApi.csproj|c:\\users\\asus\\downloads\\upload files in angular and core api\\upload files in angular and core api\\productminiapi\\productminiapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF9B342-0EE3-4124-AFE8-DE290DAD290F}|ProductMiniApi\\ProductMiniApi.csproj|solutionrelative:productminiapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF9B342-0EE3-4124-AFE8-DE290DAD290F}|ProductMiniApi\\ProductMiniApi.csproj|c:\\users\\asus\\downloads\\upload files in angular and core api\\upload files in angular and core api\\productminiapi\\productminiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF9B342-0EE3-4124-AFE8-DE290DAD290F}|ProductMiniApi\\ProductMiniApi.csproj|solutionrelative:productminiapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF9B342-0EE3-4124-AFE8-DE290DAD290F}|ProductMiniApi\\ProductMiniApi.csproj|c:\\users\\asus\\downloads\\upload files in angular and core api\\upload files in angular and core api\\productminiapi\\productminiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{0CF9B342-0EE3-4124-AFE8-DE290DAD290F}|ProductMiniApi\\ProductMiniApi.csproj|solutionrelative:productminiapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0CF9B342-0EE3-4124-AFE8-DE290DAD290F}|ProductMiniApi\\ProductMiniApi.csproj|c:\\users\\asus\\downloads\\upload files in angular and core api\\upload files in angular and core api\\productminiapi\\productminiapi\\migrations\\20241020155908_fm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0CF9B342-0EE3-4124-AFE8-DE290DAD290F}|ProductMiniApi\\ProductMiniApi.csproj|solutionrelative:productminiapi\\migrations\\20241020155908_fm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20241020155908_fm.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Upload files in angular and core api\\Upload files in angular and core api\\ProductMiniApi\\ProductMiniApi\\Migrations\\20241020155908_fm.cs",
+              "RelativeDocumentMoniker": "ProductMiniApi\\Migrations\\20241020155908_fm.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\Upload files in angular and core api\\Upload files in angular and core api\\ProductMiniApi\\ProductMiniApi\\Migrations\\20241020155908_fm.cs",
+              "RelativeToolTip": "ProductMiniApi\\Migrations\\20241020155908_fm.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T15:59:08.84Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Upload files in angular and core api\\Upload files in angular and core api\\ProductMiniApi\\ProductMiniApi\\appsettings.json",
+              "RelativeDocumentMoniker": "ProductMiniApi\\appsettings.json",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\Upload files in angular and core api\\Upload files in angular and core api\\ProductMiniApi\\ProductMiniApi\\appsettings.json",
+              "RelativeToolTip": "ProductMiniApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-20T15:55:52.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Upload files in angular and core api\\Upload files in angular and core api\\ProductMiniApi\\ProductMiniApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ProductMiniApi\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\Upload files in angular and core api\\Upload files in angular and core api\\ProductMiniApi\\ProductMiniApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ProductMiniApi\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T15:55:25.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Asus\\Downloads\\Upload files in angular and core api\\Upload files in angular and core api\\ProductMiniApi\\ProductMiniApi\\Program.cs",
+              "RelativeDocumentMoniker": "ProductMiniApi\\Program.cs",
+              "ToolTip": "C:\\Users\\Asus\\Downloads\\Upload files in angular and core api\\Upload files in angular and core api\\ProductMiniApi\\ProductMiniApi\\Program.cs",
+              "RelativeToolTip": "ProductMiniApi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-20T15:55:25.32Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

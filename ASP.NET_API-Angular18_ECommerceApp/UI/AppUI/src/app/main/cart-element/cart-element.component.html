@@ -1,0 +1,40 @@
+<div
+  class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5 grid-rows-3 gap-2 shadow-md"
+>
+  @for (item of ListItem.items; track $index) {
+  <div
+    class="grid grid-rows-auto grid-cols-1 rounded-md pb-2 p-2 m-2 shadow-md"
+    style="backdrop-filter: blur(2px) saturate(120%)"
+  >
+    <div class="p-2">
+      <img
+        src="./assets/img/bg.jpg"
+        alt="errrr"
+        class="rounded-lg scale hover:scale-105 shadow-md hover:shadow-md hover:shadow-orange-300 transition delay-25 duration-300 ease-in-out"
+      />
+    </div>
+    <div class="flex justify-center font-semibold">
+      <div class="hover:underline hover:cursor-pointer">{{ item.name }}</div>
+    </div>
+    <div
+      class="text-justify p-3"
+      style="
+        /* Maximum width of the div */
+        max-height: 120px; /* Maximum height of the div */
+        overflow: auto;
+      "
+    >
+      {{ item.description }}
+    </div>
+    <div class="flex justify-center p-2">₹{{ item.price }}</div>
+    <div class="flex justify-center p-2">
+      <button
+        class="bg-slate-500 rounded-md px-2 p-1 shadow-md text-white hover:bg-slate-700"
+        (click)="addToCart(item)"
+      >
+        Add to cart
+      </button>
+    </div>
+  </div>
+  }
+</div>

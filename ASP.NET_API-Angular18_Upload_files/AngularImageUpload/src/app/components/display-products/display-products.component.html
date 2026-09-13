@@ -1,0 +1,24 @@
+<div style="width:60%">
+    <h3>Products</h3>
+    <div *ngIf="products">
+        <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col">Product</th>
+                <th scope="col">Image</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr *ngFor="let product of products">
+                <td>{{product.productName}}</td>
+                
+                <td>
+                    
+                    <img style="height:80px;width:100px;" [src]="imageBaseUrl+product.productImage">
+                </td>
+               
+              </tr>
+            </tbody>
+          </table>
+    </div>
+</div>

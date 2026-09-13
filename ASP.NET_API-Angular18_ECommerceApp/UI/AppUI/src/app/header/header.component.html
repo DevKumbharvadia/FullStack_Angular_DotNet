@@ -1,0 +1,97 @@
+<div>
+  <div class="p-4">
+    <span
+      class="m-4"
+      style="
+        font-family: 'AstroFuturistic';
+        font-style: italic;
+        font-size: 31px;
+        font-weight: 1000;
+      "
+    >
+      ShopSphere
+    </span>
+    <span class="m-4" style="float: right">
+      <a routerLink="Profile"> Profile </a>
+    </span>
+    <span class="m-4" style="float: right">
+      <a routerLink="Cart"> Cart </a>
+    </span>
+    @if ( isLogin ) {
+    <span class="m-4" style="float: right">
+      <a routerLink="SignUp"> Signup </a>
+    </span>
+    <span class="m-4" style="float: right">
+      <a routerLink="Login"> Login </a>
+    </span>
+    } @else { 
+      <span class="m-4" style="float: right">
+        <a routerLink="SignUp"> Signup </a>
+      </span>
+      <span class="m-4" style="float: right">
+        <a routerLink="Login"> Login </a>
+      </span>
+    } @if(isAdmin){
+    <span class="m-4" style="float: right">
+      <a routerLink="AddItem"> Add-item </a>
+    </span>
+    <span class="m-4" style="float: right">
+      <a routerLink="EditItem"> Edit-item </a>
+    </span>
+    <span class="m-4" style="float: right">
+      <a routerLink="Stats"> Stats </a>
+    </span>
+
+    }
+    <span class="m-4" style="float: right">
+      <a routerLink="Home"> Home </a>
+    </span>
+  </div>
+</div>
+
+<!-- <div class="grid grid-cols-1">
+  <div
+    class="text-center p-4"
+    style="
+      font-family: 'AstroFuturistic';
+      font-style: italic;
+      font-size: 31px;
+      font-weight: 1000;
+    "
+  >
+    ShopSphere
+  </div>
+
+  <div class="" style="font-size: 12px">
+    <span class="absolute right-0 top-0">
+
+      <div class="relative group">
+
+        <div class="p-2 cursor-pointer w-[100px] h-[40] hover:bg-gray-300 flex">
+            <img src="./assets/svg/Menu.svg" alt="errrr" class="w-[15px]" />
+            <span class="p-1">
+                Options
+            </span> 
+        </div>
+
+        <div
+          class="absolute top-[40px] w-[100px] opacity-0 group-hover:opacity-100 transition-opacity duration-500"
+        >
+        <button class="p-2 cursor-pointer w-[100px] h-[40] hover:bg-gray-300 flex">
+            <img src="./assets/svg/profilePhot.svg" alt="errrr" class="w-[15px]" />
+            <a class="p-1" routerLink="Profile">
+                Profile
+            </a> 
+        </button>
+        <button class="p-2 cursor-pointer w-[100px] h-[40] hover:bg-gray-300 flex">
+            <img src="./assets/svg/cart.svg" alt="errrr" class="w-[15px]" />
+            <a class="p-1" routerLink="Cart">
+                Cart
+            </a> 
+        </button> 
+        
+        </div>
+      </div>
+    </span>
+  </div>
+</div> -->

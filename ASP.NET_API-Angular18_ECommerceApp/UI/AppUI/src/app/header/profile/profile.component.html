@@ -1,0 +1,93 @@
+<div class="h-screen flex items-center justify-center" style="color: white">
+  <div
+    class="shadow-md p-4"
+    style="
+      padding-left: 40px;
+      padding-right: 40px;
+      padding-bottom: 30px;
+      backdrop-filter: blur(2px);
+      filter: saturate(1.2);
+    "
+  >
+    <div class="grid auto-rows-auto grid-cols-1">
+      <div>
+        <div style="float: left">
+          <img
+            src="../assets/img/square.png"
+            alt="errrrr"
+            style="width: 150px"
+            class="rounded-md"
+          />
+        </div>
+        <div style="float: left; padding-left: 2rem">
+          <table>
+            <tr>
+              <td></td>
+            </tr>
+            <tr>
+              <td>Uid</td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <div>
+        <span>
+          <textarea
+            cols="20"
+            rows="5"
+            class="w-[300px] focus:outline-none hover:cursor-text my-4"
+            name="Textarea"
+            style="background: transparent; resize: none"
+            placeholder=" Text"
+          ></textarea>
+        </span>
+      </div>
+      <div>
+        <hr />
+      </div>
+      <div>
+        <button (click)="updateHistory()">Show History</button>
+      </div>
+      <div>
+        <div class="flex justify-center items-center pt-10 shadow-md">
+          <table class="table-auto" style="padding: 20px">
+            <thead>
+              <tr>
+                <th class="p-1">No.</th>
+                <th class="p-1">Image</th>
+                <th class="p-1">Name</th>
+                <th class="p-1">Qauntity</th>
+                <th class="p-1">Date</th>
+              </tr>
+            </thead>
+            <tbody class="text-left">
+              @for (item of profileService.getItems(); track $index) {
+              <tr class="history-hover">
+                <td>#{{$index}}</td>
+                <td style="padding: 10px">
+                  <img
+                    src="../assets/img/i2.jpg"
+                    alt="errrr"
+                    style="width: 100px"
+                    class="rounded-md shadow-md"
+                  />
+                </td>
+                <td>
+                  <div class="px-4">{{item.name}}</div>
+                </td>
+                <td class="px-4">
+                  {{item.Quantity}}
+                </td>
+                <td>
+                  <span>11/6/2201</span>
+                </td>
+                <td></td>
+              </tr>
+              }
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
